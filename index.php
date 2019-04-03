@@ -33,6 +33,7 @@ include 'functions.php';
                 which contains 7, 9, 8, 9, 8, 8, 6.
                 Print the array using your function.
                 <br>
+                <div style="text-align: center;">
                 <?php
                 /**
                  * array called $numbers, which contains
@@ -41,10 +42,15 @@ include 'functions.php';
                 $numbers = array(7,9,8,9,8,8,6);
                 printArr($numbers);
                 ?>
+                </div>
             </li>
             <li>
-
+                Move your print function
+                into an include file called functions.php
+                in the same directory.
+                Make sure that it still works.
             </li>
+
         </ol>
 
     </header>
