@@ -45,8 +45,8 @@ function average($array)
 }
 ///***********************************************************************/
 
-
 /**
+ * removeDups()
  * that takes an array as a parameter and returns an array with duplicates removed.
  * @param $array
  * @return array modified array
@@ -54,4 +54,17 @@ function average($array)
 function removeDups($array)
 {
     return array_unique($array);
+}
+//***********************************************************************/
+
+/**
+ * Print the count of the
+ * @param $array
+ * @return array
+ */
+function distribution($array)
+{
+    $y = array_count_values($array);
+    ksort($y);
+    return $y;
 }

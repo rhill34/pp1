@@ -109,6 +109,25 @@ include 'functions.php';
                     ?>
                 </div>
             </li>
+            <br>
+            <li>
+                In your include file, define a function called distribution() that takes an array as a
+                parameter and returns an associative array with each value from the original array, and the number of times that value occurs in the original array. The keys should be sorted.
+                So, given the $numbers array: [7, 9, 8, 9, 8, 8, 6] distribution() would return [6=>1, 7=>1, 8=>3, 9=>2]
+                <br>Test the function from your index page.
+
+                <br>
+                <div style="text-align: center;">
+                    <?php
+                    /**
+                     * array called $numbers, which contains
+                     * 7,9,8,9,8,8,6. Print array using your function
+                     */
+                    $numbers = array(7,9,8,9,8,8,6);
+                    print_r(distribution($numbers));
+                    ?>
+                </div>
+            </li>
         </ol>
 
     </header>
