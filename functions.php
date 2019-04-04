@@ -29,3 +29,17 @@ function largest($array )
     }
     return $larger;
 }
+///***********************************************************************/
+
+/**
+ * That takes an array as a parameter and returns the average of the
+ * values in the function.
+ *
+ * @param $array
+ * @return float|int|mixed
+ */
+function average($array)
+{
+    $avg = array_sum($array) / (count($array));
+    return $avg;
+}

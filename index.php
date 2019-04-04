@@ -77,6 +77,23 @@ include 'functions.php';
                     ?>
                 </div>
             </li>
+            <br>
+            <li>
+                5.	In your functions file, define a function called average() that takes an array as a parameter and
+                returns the average of the values in the function.
+                <br>Test the function from your index page.
+                <br>
+                <div style="text-align: center;">
+                    <?php
+                    /**
+                     * array called $numbers, which contains
+                     * 7,9,8,9,8,8,6. Print array using your function
+                     */
+                    $numbers = array(7,9,8,9,8,8,6);
+                    echo average($numbers);
+                    ?>
+                </div>
+            </li>
 
         </ol>
 
