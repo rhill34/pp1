@@ -30,7 +30,7 @@ include 'functions.php';
                 that takes an array as a parameter and prints
                 the array, one item per line. <br> Then, outside the
                 function, define an array called $numbers,
-                which contains 7, 9, 8, 9, 8, 8, 6.
+                which contains 7, 9, 8, 9, 8, 8, 6.<br>
                 Print the array using your function.
                 <br>
                 <div style="text-align: center;">
@@ -47,8 +47,35 @@ include 'functions.php';
             <li>
                 Move your print function
                 into an include file called functions.php
-                in the same directory.
+                in the same directory.<br>
                 Make sure that it still works.
+                <div style="text-align: center;">
+                    <?php
+                    /**
+                     * array called $numbers, which contains
+                     * 7,9,8,9,8,8,6. Print array using your function
+                     */
+                    $numbers = array(7,9,8,9,8,8,6);
+                    printArr($numbers);
+                    ?>
+                </div>
+            </li>
+            <br>
+            <li>
+                In your functions file, define a function called largest()
+                that takes an array as a parameter and returns the largest value in the array. <br>
+                Test the function from your index page.
+                <br>
+                <div style="text-align: center;">
+                    <?php
+                    /**
+                     * array called $numbers, which contains
+                     * 7,9,8,9,8,8,6. Print array using your function
+                     */
+                    $numbers = array(7,9,8,9,8,8,6);
+                    echo largest($numbers);
+                    ?>
+                </div>
             </li>
 
         </ol>
