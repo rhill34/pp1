@@ -43,3 +43,15 @@ function average($array)
     $avg = array_sum($array) / (count($array));
     return $avg;
 }
+///***********************************************************************/
+
+
+/**
+ * that takes an array as a parameter and returns an array with duplicates removed.
+ * @param $array
+ * @return array modified array
+ */
+function removeDups($array)
+{
+    return array_unique($array);
+}

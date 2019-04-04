@@ -79,7 +79,7 @@ include 'functions.php';
             </li>
             <br>
             <li>
-                5.	In your functions file, define a function called average() that takes an array as a parameter and
+                In your functions file, define a function called average() that takes an array as a parameter and
                 returns the average of the values in the function.
                 <br>Test the function from your index page.
                 <br>
@@ -94,7 +94,21 @@ include 'functions.php';
                     ?>
                 </div>
             </li>
-
+            <br>
+            <li>
+                In your functions file, define a function called removeDups() that takes an array as a parameter and returns an array with duplicates removed. So, given the $numbers array, removeDups() would return [7, 9, 8, 6]. (Order doesn't matter.) Test the function from your index page.
+                <br>
+                <div style="text-align: center;">
+                    <?php
+                    /**
+                     * array called $numbers, which contains
+                     * 7,9,8,9,8,8,6. Print array using your function
+                     */
+                    $numbers = array(7,9,8,9,8,8,6);
+                    print_r(removeDups($numbers));
+                    ?>
+                </div>
+            </li>
         </ol>
 
     </header>
